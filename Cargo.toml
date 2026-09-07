@@ -1,0 +1,42 @@
+[package]
+name = "meigen-bot"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Rule-based Japanese quote detection Discord bot with a Rust Python extension"
+readme = "README.md"
+repository = "https://github.com/dtmpm3485/meigen-bot"
+
+[lib]
+name = "meigen_core"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+python = ["dep:pyo3"]
+extension-module = ["python", "pyo3/extension-module"]
+
+[dependencies]
+anyhow = "1.0"
+pyo3 = { version = "=0.23.5", optional = true }
+serenity = { version = "=0.12.5", default-features = false, features = ["builder", "client", "gateway", "model", "http", "rustls_backend"] }
+tokio = { version = "1.43", features = ["rt-multi-thread", "sync", "time", "macros"] }
+rusqlite = { version = "=0.32.1", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+regex = "1.11"
+unicode-normalization = "0.1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"
+panic = "unwind"
+
+[profile.dev]
+debug = 0
