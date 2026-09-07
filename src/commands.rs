@@ -176,13 +176,7 @@ async fn execute(ctx: &Context, c: &CommandInteraction, state: &State) -> Result
     let member = guild.member(&ctx.http, c.user.id).await?;
     let channels = guild.channels(&ctx.http).await?;
     if c.data.name == "meigen-settings" {
-        let admin = partial.owner_id == c.user.id
-            || member.roles.iter().any(|id| {
-                partial
-                    .roles
-                    .get(id)
-                    .is_some_and(|r| r.permissions.administrator())
-            });
+        let admin = partial.member_permissions(&member).administrator();
         anyhow::ensure!(admin, "サーバー管理者のみ変更できます");
         let _guard = state.mutations.lock().await;
         let mut s = state.db.settings(guild.get()).await?;
