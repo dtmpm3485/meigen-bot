@@ -48,7 +48,7 @@ impl EventHandler for Handler {
         if msg.author.bot
             || msg.webhook_id.is_some()
             || msg.guild_id.is_none()
-            || !matches!(msg.kind, MessageType::Regular | MessageType::Reply)
+            || !matches!(msg.kind, MessageType::Regular | MessageType::InlineReply)
         {
             return;
         }
@@ -141,7 +141,7 @@ async fn process(
     let avatar = msg.author.face();
     let mut builder = CreateMessage::new()
         .embed(commands::quote_embed(&q, Some(&avatar)))
-        .allowed_mentions(CreateAllowedMentions::new());
+        .allowed_mentions(CreateAllowedMentions::new().replied_user(false));
     if output == msg.channel_id {
         builder = builder.reference_message(MessageReference::from(msg).fail_if_not_exists(false));
     }
