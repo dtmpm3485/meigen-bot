@@ -1,0 +1,534 @@
+[
+  {
+    "text": "学校には遅刻するけどログボには遅刻しない",
+    "expected": true
+  },
+  {
+    "text": "金で幸せは買えない。でもガチャは回せる。",
+    "expected": true
+  },
+  {
+    "text": "努力は裏切らない。俺は努力を裏切る。",
+    "expected": true
+  },
+  {
+    "text": "寝る時間がないんじゃない。ゲームする時間が長いだけだ。",
+    "expected": true
+  },
+  {
+    "text": "課金は無駄じゃない。未来の後悔を先に買ってるだけだ。",
+    "expected": true
+  },
+  {
+    "text": "人生は一度きり。でもリセマラは何度でもできる。",
+    "expected": true
+  },
+  {
+    "text": "負けたんじゃない。勝つ前に終わっただけだ。",
+    "expected": true
+  },
+  {
+    "text": "明日やればいいことを今日やる必要はない。",
+    "expected": true
+  },
+  {
+    "text": "仕事には遅刻するけどゲームには遅刻しない。",
+    "expected": true
+  },
+  {
+    "text": "学校では眠れない。でも授業では眠れる。",
+    "expected": true
+  },
+  {
+    "text": "給料は増えない。でもガチャの回数は増える。",
+    "expected": true
+  },
+  {
+    "text": "人生は変えられない。でもゲームの名前は変えられる。",
+    "expected": true
+  },
+  {
+    "text": "未来は見えない。でも課金の請求は見える。",
+    "expected": true
+  },
+  {
+    "text": "夢は買えない。でもガチャの石は買える。",
+    "expected": true
+  },
+  {
+    "text": "努力は足りない。でも努力する言い訳は足りる。",
+    "expected": true
+  },
+  {
+    "text": "自由はない。でもゲームを選ぶ自由はある。",
+    "expected": true
+  },
+  {
+    "text": "学校よりログボこそ正義である。",
+    "expected": true
+  },
+  {
+    "text": "会社より布団こそ正義である。",
+    "expected": true
+  },
+  {
+    "text": "人生よりゲームに全力を出すべきだ。",
+    "expected": true
+  },
+  {
+    "text": "努力は無駄じゃない。失敗の理由が増えるだけだ。",
+    "expected": true
+  },
+  {
+    "text": "金欠じゃない。未来の給料を使っただけだ。",
+    "expected": true
+  },
+  {
+    "text": "仕事が嫌いなんじゃない。布団が好きなだけだ。",
+    "expected": true
+  },
+  {
+    "text": "人生に負けたんじゃない。まだ勝つ準備をしているだけだ。",
+    "expected": true
+  },
+  {
+    "text": "友達がいないんじゃない。親友を厳選しているだけだ。",
+    "expected": true
+  },
+  {
+    "text": "寝るのは逃げじゃない。明日の夢を探しているだけだ。",
+    "expected": true
+  },
+  {
+    "text": "課金は消費じゃない。未来の自分への借金だ。",
+    "expected": true
+  },
+  {
+    "text": "努力する時間はない。でもガチャを回す時間はある。",
+    "expected": true
+  },
+  {
+    "text": "学校の順位は上がらない。でもゲームのランクは上がる。",
+    "expected": true
+  },
+  {
+    "text": "仕事の報酬は少ない。でもゲームの報酬は受け取る。",
+    "expected": true
+  },
+  {
+    "text": "人生に攻略本はない。でもゲームには攻略本がある。",
+    "expected": true
+  },
+  {
+    "text": "幸せに天井はない。でもガチャには天井がある。",
+    "expected": true
+  },
+  {
+    "text": "睡眠は裏切らない。俺は睡眠を裏切る。",
+    "expected": true
+  },
+  {
+    "text": "友情は裏切らない。俺は友情を裏切る。",
+    "expected": true
+  },
+  {
+    "text": "未来は逃げない。俺が未来から逃げるだけだ。",
+    "expected": true
+  },
+  {
+    "text": "借金は増える。でも給料は増えない。",
+    "expected": true
+  },
+  {
+    "text": "宿題は終わらない。でもゲームの周回は終わる。",
+    "expected": true
+  },
+  {
+    "text": "恋愛のランクは上がらない。でもゲームのランクは上がる。",
+    "expected": true
+  },
+  {
+    "text": "仕事に自由はない。でも夢には自由がある。",
+    "expected": true
+  },
+  {
+    "text": "ゲームは人生ではない。人生がゲームなだけだ。",
+    "expected": true
+  },
+  {
+    "text": "努力より課金で勝つ。それが俺の人生だ。",
+    "expected": true
+  },
+  {
+    "text": "草",
+    "expected": false
+  },
+  {
+    "text": "www",
+    "expected": false
+  },
+  {
+    "text": "wwwwww",
+    "expected": false
+  },
+  {
+    "text": "え",
+    "expected": false
+  },
+  {
+    "text": "あ",
+    "expected": false
+  },
+  {
+    "text": "はい",
+    "expected": false
+  },
+  {
+    "text": "了解",
+    "expected": false
+  },
+  {
+    "text": "おはよう",
+    "expected": false
+  },
+  {
+    "text": "今日ゲームする？",
+    "expected": false
+  },
+  {
+    "text": "https://example.com",
+    "expected": false
+  },
+  {
+    "text": "@user",
+    "expected": false
+  },
+  {
+    "text": "<@123456789012345678>",
+    "expected": false
+  },
+  {
+    "text": "<@!123456789012345678>",
+    "expected": false
+  },
+  {
+    "text": "<@&123456789012345678>",
+    "expected": false
+  },
+  {
+    "text": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀",
+    "expected": false
+  },
+  {
+    "text": "!!!!!!!!!!!!!!!",
+    "expected": false
+  },
+  {
+    "text": "ああああああああああああああああ",
+    "expected": false
+  },
+  {
+    "text": "/meigen",
+    "expected": false
+  },
+  {
+    "text": "!help",
+    "expected": false
+  },
+  {
+    "text": "```rust\nfn main() {}\n```",
+    "expected": false
+  },
+  {
+    "text": "今日の学校はいつもより早く終わった",
+    "expected": false
+  },
+  {
+    "text": "明日は学校に行ってから友達とゲームします",
+    "expected": false
+  },
+  {
+    "text": "今日の宿題は数学の教科書の二十ページです",
+    "expected": false
+  },
+  {
+    "text": "昨日はゲームをしてから寝ました",
+    "expected": false
+  },
+  {
+    "text": "金曜日の授業は体育と数学と英語です",
+    "expected": false
+  },
+  {
+    "text": "今日の給料は口座に振り込まれていました",
+    "expected": false
+  },
+  {
+    "text": "新しいゲームを買ったので夜に遊びます",
+    "expected": false
+  },
+  {
+    "text": "明日の会議は午後三時から始まります",
+    "expected": false
+  },
+  {
+    "text": "昨日のテストの結果が今日返ってきました",
+    "expected": false
+  },
+  {
+    "text": "次のガチャは明日の昼から始まります",
+    "expected": false
+  },
+  {
+    "text": "会社の忘年会は来月の金曜日に決まりました",
+    "expected": false
+  },
+  {
+    "text": "来週の授業で使う教科書を忘れないでください",
+    "expected": false
+  },
+  {
+    "text": "バイトのシフトは来週の火曜日に入っています",
+    "expected": false
+  },
+  {
+    "text": "今日は学校から帰って早めに寝る予定です",
+    "expected": false
+  },
+  {
+    "text": "友達と映画を見てから晩ご飯を食べました",
+    "expected": false
+  },
+  {
+    "text": "このゲームの操作方法を教えてください",
+    "expected": false
+  },
+  {
+    "text": "明日の学校の持ち物を教えてください",
+    "expected": false
+  },
+  {
+    "text": "金曜日の仕事が終わったら連絡してください",
+    "expected": false
+  },
+  {
+    "text": "今日の昼ご飯はコンビニのおにぎりでした",
+    "expected": false
+  },
+  {
+    "text": "今日も一日お疲れさまでした",
+    "expected": false
+  },
+  {
+    "text": "お誕生日おめでとうございます",
+    "expected": false
+  },
+  {
+    "text": "先ほどはどうもありがとうございました",
+    "expected": false
+  },
+  {
+    "text": "本日のイベントに参加する人を募集しています",
+    "expected": false
+  },
+  {
+    "text": "お手数ですが内容をご確認ください",
+    "expected": false
+  },
+  {
+    "text": "明日の予定をカレンダーに登録しました",
+    "expected": false
+  },
+  {
+    "text": "この写真を見て感想を教えてください",
+    "expected": false
+  },
+  {
+    "text": "昨日注文した商品が今朝届きました",
+    "expected": false
+  },
+  {
+    "text": "駅の前で待っているので着いたら連絡ください",
+    "expected": false
+  },
+  {
+    "text": "新しいチャンネルを作ったので参加してください",
+    "expected": false
+  },
+  {
+    "text": "ゲームのサーバーはメンテナンス中です",
+    "expected": false
+  },
+  {
+    "text": "今日は雨だけど明日は晴れる予報です",
+    "expected": false
+  },
+  {
+    "text": "学校は休みだけどバイトはあります",
+    "expected": false
+  },
+  {
+    "text": "ゲームは好きだけど今日は予定があります",
+    "expected": false
+  },
+  {
+    "text": "勉強したけどテストは難しかった",
+    "expected": false
+  },
+  {
+    "text": "宿題は終わったのでゲームします",
+    "expected": false
+  },
+  {
+    "text": "今日の仕事は終わったので帰ります",
+    "expected": false
+  },
+  {
+    "text": "昨日より少し早く会社に着きました",
+    "expected": false
+  },
+  {
+    "text": "今日の授業では人生について話しました",
+    "expected": false
+  },
+  {
+    "text": "金と仕事と学校とゲームと睡眠と努力",
+    "expected": false
+  },
+  {
+    "text": "人生の夢と未来と自由について考えています",
+    "expected": false
+  },
+  {
+    "text": "学校のテスト勉強を頑張っています",
+    "expected": false
+  },
+  {
+    "text": "明日ガチャの更新があると聞きました",
+    "expected": false
+  },
+  {
+    "text": "ゲームのランキングが更新されました",
+    "expected": false
+  },
+  {
+    "text": "仕事が忙しくて返信が遅くなりました",
+    "expected": false
+  },
+  {
+    "text": "夜更かししたので今日は眠いです",
+    "expected": false
+  },
+  {
+    "text": "未来の進路について先生と相談しました",
+    "expected": false
+  },
+  {
+    "text": "友達と来週の旅行について話しています",
+    "expected": false
+  },
+  {
+    "text": "恋愛についての本を図書館で借りました",
+    "expected": false
+  },
+  {
+    "text": "会社の同僚と一緒に昼ご飯を食べました",
+    "expected": false
+  },
+  {
+    "text": "学校の帰りに本屋へ寄ってきました",
+    "expected": false
+  },
+  {
+    "text": "人生はどうしたら幸せになれる？",
+    "expected": false
+  },
+  {
+    "text": "ゲームより勉強をしたほうがいい？",
+    "expected": false
+  },
+  {
+    "text": "努力は本当に裏切らないのかな？",
+    "expected": false
+  },
+  {
+    "text": "課金したけど目当てのキャラは出ましたか？",
+    "expected": false
+  },
+  {
+    "text": "明日やればいいことは今日やらなくていい？",
+    "expected": false
+  },
+  {
+    "text": "<:game:123456789012345678><:money:123456789012345679>",
+    "expected": false
+  },
+  {
+    "text": "https://example.com/game https://example.com/school",
+    "expected": false
+  },
+  {
+    "text": "<@123456789012345678> <@123456789012345679>",
+    "expected": false
+  },
+  {
+    "text": "/command 学校には遅刻するけどログボには遅刻しない",
+    "expected": false
+  },
+  {
+    "text": "!say 努力は裏切らない。俺は努力を裏切る。",
+    "expected": false
+  },
+  {
+    "text": "`努力は裏切らない。俺は努力を裏切る。`",
+    "expected": false
+  },
+  {
+    "text": "ゲームゲームゲームゲームゲームゲーム",
+    "expected": false
+  },
+  {
+    "text": "abcabcabcabcabcabcabcabc",
+    "expected": false
+  },
+  {
+    "text": "ーーーーーーーーーーーーーーーーーー",
+    "expected": false
+  },
+  {
+    "text": "。。。。。。。。。。。。。。。。。。。。",
+    "expected": false
+  },
+  {
+    "text": "😂🤣😅😊😉😍🥰😇😎🥳🤔😭",
+    "expected": false
+  },
+  {
+    "text": "🧑‍💻🧑‍💻🧑‍💻🧑‍💻🧑‍💻🧑‍💻",
+    "expected": false
+  },
+  {
+    "text": "おはようございます。今日もよろしくお願いします。",
+    "expected": false
+  },
+  {
+    "text": "会議の資料を共有フォルダに保存しました",
+    "expected": false
+  },
+  {
+    "text": "了解しました。あとで確認しておきます。",
+    "expected": false
+  },
+  {
+    "text": "あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお",
+    "expected": false
+  },
+  {
+    "text": "\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002\u0000\u0001\u0002",
+    "expected": false
+  },
+  {
+    "text": "����������������������������������������",
+    "expected": false
+  }
+]

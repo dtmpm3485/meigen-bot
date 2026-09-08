@@ -1,0 +1,12 @@
+/target/
+/dist/
+/.venv/
+__pycache__/
+*.pyc
+*.so
+*.pyd
+*.dylib
+*.db
+*.db-shm
+*.db-wal
+.env

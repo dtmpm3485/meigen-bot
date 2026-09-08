@@ -1,0 +1,31 @@
+[build-system]
+requires = ["maturin>=1.8,<2"]
+build-backend = "maturin"
+
+[project]
+name = "meigen-bot"
+dynamic = ["version"]
+description = "Rust-powered, AI-free Japanese quote detection bot for Discord"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = { text = "MIT" }
+keywords = ["discord", "bot", "rust", "meigen", "japanese"]
+classifiers = [
+ "Programming Language :: Rust",
+ "Programming Language :: Python :: 3.10",
+ "Programming Language :: Python :: 3.11",
+ "Programming Language :: Python :: 3.12",
+ "Programming Language :: Python :: 3.13",
+ "Programming Language :: Python :: Implementation :: CPython",
+ "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Repository = "https://github.com/dtmpm3485/meigen-bot"
+Issues = "https://github.com/dtmpm3485/meigen-bot/issues"
+
+[tool.maturin]
+features = ["extension-module"]
+python-source = "python"
+module-name = "meigen_bot._native"
+include = ["LICENSE", "tests/**", ".github/workflows/**", "VALIDATION.md"]
