@@ -140,7 +140,8 @@ pub fn analyze_message(text: &str) -> AnalysisResult {
     }
     let cleaned = NOISE.replace_all(&text, "");
     let chars: Vec<char> = cleaned.chars().filter(|c| c.is_alphanumeric()).collect();
-    if chars.len() < 12 {
+    // Short, completed aphorisms can still be meaningful. Keep only truly tiny noise out.
+    if chars.len() < 8 {
         return rejected("短文またはノイズ");
     }
     if chars.iter().collect::<HashSet<_>>().len() < 5
