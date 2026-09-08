@@ -19,7 +19,9 @@ pub fn scores(f: &Features) -> [u8; 5] {
     let mix = (f.abstract_theme > 0 && f.mundane_theme > 0)
         || (f.mundane_theme >= 2 && f.comparison && f.assertion);
     let structure = f.contrast || f.comparison || f.parallel || f.reversal || f.explanation;
-    let score = 20
+    // Slightly permissive baseline: structured everyday remarks should reach the
+    // configured threshold without requiring a theme keyword.
+    let score = 30
         + b(f.contrast, 16)
         + b(f.assertion, 10)
         + b(f.comparison, 12)

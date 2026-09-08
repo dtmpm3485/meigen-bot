@@ -35,6 +35,23 @@ fn labeled_corpus() {
     assert!(failures.is_empty(), "{}", failures.join("\n"));
 }
 #[test]
+fn natural_reversal_and_short_quotes_are_detected() {
+    let reversal = analyze_message("人間は、反応しないんじゃない。反応できないんだ");
+    assert!(
+        reversal.is_meigen,
+        "score={} reasons={:?}",
+        reversal.score, reversal.reasons
+    );
+
+    let short = analyze_message("夢は逃げない。俺が逃げる");
+    assert!(
+        short.is_meigen,
+        "score={} reasons={:?}",
+        short.score, short.reasons
+    );
+}
+
+#[test]
 fn unicode_and_resource_bounds() {
     for c in [
         '\0', '\u{fffd}', '😀', '\u{200d}', '\u{fe0f}', '\u{301}', '\u{202e}',
