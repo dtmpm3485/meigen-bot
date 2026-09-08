@@ -138,9 +138,11 @@ async fn process(
     if !state.db.insert(q.clone(), normalized).await? {
         return Ok(());
     }
-    let avatar = msg.author.face();
     let mut builder = CreateMessage::new()
-        .embed(commands::quote_embed(&q, Some(&avatar)))
+        .content(format!(
+            "名言を検出しました\n「{}」",
+            commands::safe_text(&q.content)
+        ))
         .allowed_mentions(CreateAllowedMentions::new().replied_user(false));
     if output == msg.channel_id {
         builder = builder.reference_message(MessageReference::from(msg).fail_if_not_exists(false));
