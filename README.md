@@ -6,7 +6,7 @@
 
 Discordの会話から名言・迷言っぽい発言を自動で検出するBotです。Bot本体と判定処理はRustで実装されており、Pythonから起動できます。
 
-![meigen-botの動作例](assets/demo.jpg)
+<img src="https://raw.githubusercontent.com/dtmpm3485/meigen-bot/main/assets/demo.jpg" alt="meigen-botの動作例" width="100%">
 
 ## 機能
 
